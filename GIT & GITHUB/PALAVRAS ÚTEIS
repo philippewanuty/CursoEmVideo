@@ -1,0 +1,22 @@
+
+
+Dicionário:  palavras úteis relacionadas ao Git e ao GitHub
+    
+
+    Commit: Um commit é uma operação no Git que salva as alterações feitas em seus arquivos no repositório. Cada commit possui uma mensagem associada que descreve as alterações realizadas.
+
+    Push: O comando "git push" é usado para enviar suas alterações locais para um repositório remoto. Isso atualiza o repositório remoto com suas alterações e as torna disponíveis para outros colaboradores.
+
+    Pull: O comando "git pull" é usado para obter as alterações mais recentes de um repositório remoto para o seu repositório local. Isso é útil quando você deseja atualizar seu repositório local com as alterações feitas por outros colaboradores.
+
+    Branch: Um branch é uma ramificação separada no repositório que permite que você trabalhe em alterações isoladas do ramo principal (normalmente chamado de "master" ou "main"). Branches são úteis para desenvolver recursos ou corrigir bugs sem afetar o código principal.
+
+    Merge: O merge é o processo de combinar as alterações de um branch em outro. Por exemplo, quando você conclui o trabalho em um branch de recurso, pode mesclá-lo de volta ao branch principal.
+
+    Pull Request: Um pull request é uma solicitação para mesclar as alterações de um branch para outro no GitHub. É uma maneira de revisar as alterações antes de mesclá-las. Outros colaboradores podem revisar o código, fornecer comentários e aprovar ou rejeitar o pull request.
+
+    Fork: Um fork é uma cópia independente de um repositório. Ao fazer um fork de um repositório no GitHub, você cria uma cópia completa do repositório em sua conta. Isso permite que você trabalhe em suas próprias alterações sem afetar o repositório original.
+
+    Clone: Clonar um repositório significa criar uma cópia local do repositório em seu ambiente de desenvolvimento. Você pode clonar um repositório do GitHub usando o comando "git clone" seguido pelo URL do repositório.
+
+    .gitignore: O arquivo .gitignore é usado para especificar quais arquivos ou tipos de arquivos devem ser ignorados pelo Git. É útil para evitar que arquivos desnecessários (como arquivos de compilação, arquivos temporários etc.) sejam adicionados ao repositório.
