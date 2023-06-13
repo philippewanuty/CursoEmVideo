@@ -1,0 +1,21 @@
+# - titulo 1
+## - titulo 2
+** Negrito ** 
+*Itálico *
+~~Riscado ~~
+
+Listas: Para criar listas não ordenadas, use um asterisco (*), um sinal de mais (+) ou um traço (-) seguido de um espaço antes de cada item da lista. Para listas ordenadas, use números seguidos de um ponto e um espaço.
+1. Item 1
+2. Item 2
+3. Item 3
+
+lista demarcada:
+
+* Teste 1
+* Teste 2
+    *teste 3
+
+lista de tarefas: 
+
+[x] teste 1
+[ ] teste 2
