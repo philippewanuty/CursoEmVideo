@@ -16,7 +16,7 @@ while mais != 0:
         cont += 1
     print('Pausa')
     print('Quantidade de termos para começar até o momento {}'.format(cont))
-    print('Quantidade de termos para começar até o momento {}'.format(cont))
+    print('Valor do termo até o momento {}'.format(primeiro))
     mais = int(input('Quantos termos gostaria de mostrar mais?: '))
     
 print('voce usou o total de {} termos'.format(total))
