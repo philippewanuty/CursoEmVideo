@@ -5,7 +5,7 @@ print('{:*^40}'.format('Progressão aritimetica'))
 
 termo = int(input('Digite o primeiro termo: '))
 razao = int(input('Digite a razão: '))
-decimo = termo + 10 * razao
+decimo = termo + (10 * razao) #formula da p.a
 print(decimo)
 
 for n in range(termo,decimo,razao):
