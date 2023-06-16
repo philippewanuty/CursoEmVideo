@@ -3,31 +3,46 @@
 import random
 
 print('{:-^40}'.format('Jogo Par ou Impar'))
-escolha_comp = ['par','impar']
 escolha = str(input('Digite sua opção[Impar ou Par]: '))
 numero = int(input('Digite seu numero: '))
-comp_escolha = random.choice(escolha_comp)
-comp_numero = random.randint(0,10)
-soma_numeros = numero + comp_numero
-parouimpa = soma_numeros % 2
+comp_escolha = ''
+comp_numero = 0
+soma_numeros = 0
+parouimpa = 0
 resultado = ''
+contagem = 0
 
+while True:
+    comp_numero = random.randint(0,10)
+    soma_numeros = numero + comp_numero
+    parouimpa = soma_numeros % 2
 
-if parouimpa == 0:
-    resultado = 'par'
-else:
-    resultado = 'impar'
+    if escolha == 'par':
+        comp_escolha = 'impar'
+    else:
+        comp_escolha = 'par'
 
-if resultado == comp_escolha:
-    print(f'Deu {resultado.upper()} o Computador ganhou!')
-else:
-    print(f'Deu {resultado.upper()} você ganhou!')
+    if parouimpa == 0:
+        resultado = 'par'
+    else:
+        resultado = 'impar'
+
+    if resultado == escolha:
+        print(f'\nA soma dos numeros foram {soma_numeros} e deu {resultado.upper()} o você ganhou!')
+    else:
+        print(f'A soma dos numeros foram {soma_numeros} e deu {resultado.upper()} o Computador ganhou!')
+        break
+    contagem += 1
+    print(f'O computador escolheu {comp_escolha.upper()} e o numero: {comp_numero}')
+    escolha = str(input('Digite sua opção[Impar ou Par]: '))
+    numero = int(input('Digite seu numero: '))
 
 
 
 print('-'*30)
 
-print(f'O resultado é {resultado}')
-print(f'O computador escolheu {comp_escolha} e o numero: {comp_numero}')
-print(f'O jogador escolheu {escolha} e o numero {numero}')
+
+print(f'O computador escolheu {comp_escolha.upper()} e o numero: {comp_numero}')
+print(f'O jogador escolheu {escolha.upper()} e o numero {numero}')
+print(f'o jogador conseguiu ganhar {contagem} vezes seguidas')
 

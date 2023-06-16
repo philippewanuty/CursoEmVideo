@@ -1,6 +1,3 @@
-import random
+n = 7 % 2
 
-escolha = ['a', 'c']
-escolha_comp = random.choice(escolha)
-
-print(f'{escolha_comp}')
+print(f'{n}')
