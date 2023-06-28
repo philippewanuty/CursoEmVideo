@@ -6,6 +6,8 @@ Paragrafo: <p>Escrever um paragrafo</p>
 
 Quebra de linha: <br/>
 
+linha : <hr>
+
 Links: <a href="https://rocketseat.com.
 br">ver site</a>
 

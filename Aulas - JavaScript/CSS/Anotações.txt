@@ -1,4 +1,4 @@
-/* Css - Cascadiing Style Sheets
+ Css - Cascadiing Style Sheets
 
 Composto de declarações - Pedaço de codigo que irá ditar as propriedades e valores a serem aplicadas a um elemento HTML
 
@@ -8,7 +8,7 @@ body {
   Comentários:   Color: green; Essa linha será ignorada 
 }
 
-/* Castata:
+ Castata:
 Quando a duas ou mais declarações a ultima será mais relevante. 
 
 body {
@@ -21,4 +21,3 @@ body {
  
 }
 
-*/
