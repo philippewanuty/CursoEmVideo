@@ -1,0 +1,19 @@
+HTML - Hypertext markup Language
+
+Hypertexto - textos que contem links
+
+HTML- é focado em conteúdo.
+
+Elemento Html ou tag - um elemento para um propósito 
+        ex:
+    <p> Conteúdo </p>
+    <!-- aqui vem um comentrio -->
+
+
+Atributos:
+<a href="https://rocketseat.com.br"> Ver site</a>
+
+imagem:
+<img src="img.jpg" alt = "Exemplo de foto/>
+
+<h1> Exemplo de título </h1 >
