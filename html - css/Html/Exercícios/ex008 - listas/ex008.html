@@ -1,6 +1,6 @@
-<!--Listas-->
+<!--Listas OL e UL-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
     <ol type="1">
       <!-- ol: ordenade list, caso queira pode ser usado com type-->
       <!-- li: List item-->
-      <li>Banana</li> 
+      <li>Banana</li>
       <li>manga</li>
       <li>goiaba</li>
       <li>graviola</li>
@@ -26,11 +26,49 @@
       <li>graviola</li>
     </ol>
     <h2>Listas não ordenadas</h2>
-    <ul type="square"> 
+    <ul type="square">
       <!--3 opções , circle square e disc-->
       <li>botão 1</li>
       <li>botão 2</li>
       <li>botão 3</li>
     </ul>
+    <h2>Listas dentro de listas</h2>
+    <h3>Consoles e jogos preferidos</h3>
+    <ol>
+      <li>Playstation</li>
+      <ol type="a">
+        <li>God of War</li>
+        <li>Crash</li>
+        <li>Tomb Raider</li>
+        <li>Spider man</li>
+      </ol>
+      <li>SNES</li>
+      <ol type="a">
+        <li>Mario</li>
+        <li>Zelda</li>
+        <li>Donkey Kong 1,2,3</li>
+        <li>Super Metroid</li>
+      </ol>
+      <li>Switch</li>
+      <ul type="a">
+        <li>Mario Party</li>
+        <li>Mario Kart</li>
+        <li>Zelda Breath of the wild</li>
+        <li>Metroid prime</li>
+      </ul>
+    </ol>
+    <h2>Lista de definição</h2>
+    <!-- Termos a esquerda e definição a direita-->
+    <dl> <!--Definition list-->
+      <dt>HTML</dt> <!--Definition Term-->
+      <dd> Linguagem de marcação para a criação do conteúdo um site</dd> <!-- Definition Description-->
+      <dt>CSS</dt>
+      <dd>Linguagem de marcação para a criação de design do site</dd>
+      <dt>JavaScript</dt>
+      <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+
+
+    </dl>
+
   </body>
 </html>
