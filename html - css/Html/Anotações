@@ -1,19 +1,9 @@
-HTML - Hypertext markup Language
+Programas, sites e  ferramentas importantes.
 
-Hypertexto - textos que contem links
+gimp: editor de Imagens
+handbrake: edito de Vídeos
+figma: Design UI / UX
+Git: programa de versionamento
+GitHub: repositório remoto de versionamento
 
-HTML- é focado em conteúdo.
-
-Elemento Html ou tag - um elemento para um propósito 
-        ex:
-    <p> Conteúdo </p>
-    <!-- aqui vem um comentrio -->
-
-
-Atributos:
-<a href="https://rocketseat.com.br"> Ver site</a>
-
-imagem:
-<img src="img.jpg" alt = "Exemplo de foto/>
-
-<h1> Exemplo de título </h1 >
+Roadmap.sh: reteiro de aprendizado para linguagens

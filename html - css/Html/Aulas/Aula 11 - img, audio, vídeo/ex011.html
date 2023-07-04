@@ -1,0 +1,62 @@
+<!---->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>ex011</title>
+  </head>
+  <body>
+    <h1>Imagens dinamicas, Vídeos e música</h1>
+    <hr/>
+    <h2>Imagem</h2>
+    <picture>
+      <source media="(max-width:750px )"srcset="img/img-p.jpg" type="image/jpg" />
+      <source media="(max-width:1050px )"srcset="img/img-m.jpg"type="image/jpg"/>
+      <img src="img/img-g.jpg" alt="Imagem Flexível" />
+    </picture>
+
+    <h2>Reproduzindo áudio</h2>
+    <p>Vamos aprender reproduzir áudio em HTML5</p>
+   <audio preload="metadata" controls> 
+      <source src="mp3/Ending Theme - Super Mario_ World_waKumDkYrDY.mp3" type="audio/mpeg">
+   </audio>
+   <p>Baixe a  <a href="mp3/Ending Theme - Super Mario_ World_waKumDkYrDY.mp3" download="Ending Theme - Super Mario_ World_waKumDkYrDY.mp3" type="audio/mpeg">aqui</a> a esta música</p>
+
+   <h2>Reproduzindo vídeo</h2>
+   <p>Vídeo de exemplo para estudo</p>
+    <video width="700" poster="mp4/Poster mario.png" controls >
+      <source src="mp4/The Super Mario Bros. Movie _ Smash.mp4" type="video/mp4">
+    </video>
+    <p>Você também pode incorporar seus vídeos através do compartilhamento do youtube</p>
+
+    <iframe width="700" height="390"  src="https://www.youtube.com/embed/cDNkh5WybZo?start=1" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+
+  
+    <h4>Tag utilizadas</h4>
+    <p><b>&lt;picture&gt;</b> : utilizada para trabalhar com a imagem</p>
+    <p><b>&lt;source&gt;</b> : utilizada para mudar de imagem dinamicamente</p>
+    <p><b>&lt;audio&gt;</b> : utilizada para colocar um áudio no site
+
+    <p><strong>Parâmetros para audio:</strong>
+    <ul>
+      <li>controls: aparece o player</li>
+      <li>Autoplay: toca automaticamente</li>
+      <li>loop: toca infinito</li>
+      <li>preload=: formato de  pré carregamento</li>
+    </ul>
+    </p>
+    <p><b>&lt;video&gt;</b> : utilizada para colocar um video no site
+
+      <p><strong>Parâmetros para video:</strong>
+    <ul>
+      <li>controls: aparece o player</li>
+      <li>Autoplay: toca automaticamente</li>
+      <li>Poster: foto de abertura</li>
+      <li>preload=: formato de  pré carregamento</li>
+    </ul>
+    </p>
+  </body>
+</html>
