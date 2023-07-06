@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*importando fontes diretamente da internet*/ 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Courgette&family=Kaushan+Script&family=Montserrat:wght@300&family=Press+Start+2P&display=swap'); 
+
+/* importando fontes do computador*/ 
+@font-face {
+  font-family: 'fast';
+  src: url(fonts/FastRider-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  /*tipos de format()
+  - opentype(otf)
+  - truetype(ttf)*/
+}
+
+body { text-align: justify;
+}
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Kaushan Script', cursive;
+
+
+}
+
+p {
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+
+  /* 
+ font-style: italic;
+ font-weight: normal ;
+ font-size: 16px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+  /* shorthand - mãozinha*/
+
+  /* usa-se mais px e em para tamanho das fontes
+  o 1 em equivale a 100% de 16px*/
+}
