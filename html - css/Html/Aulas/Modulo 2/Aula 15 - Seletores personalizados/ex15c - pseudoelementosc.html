@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex15c</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      .link1 {
+        color: green;
+        text-decoration: none;
+        font-weight: bold;
+      }
+       .link1:visited {
+        color: pink;
+      }
+     
+
+      .link1:hover {
+        color: rgb(139, 139, 3);
+        text-decoration: underline;
+      }
+    
+      .link1:active {
+        color: blue;
+      }
+
+      /*PseudoElementos*/
+
+      .link1::after {
+        content: ' [link]';
+        color: blueviolet;
+        font-size: 10px;
+      }
+      .link1::before {
+        content: '[link]';
+        color: blueviolet;
+        font-size: 10px;
+      }
+      
+    </style>
+
+  </head>
+  <body>
+    <h1>PseudoElementos</h1>
+    <p>
+      Pseudo-elemento CSS é uma palavra-chave adicionada às declarações de um
+      seletor após dois sinais de dois pontos e permitem que você formate um
+      pedaço específico do elemento referenciado. Os principais pseudo-elementos
+      usados nas CSS são ::before, ::after, ::first-letter, ::first-line.
+    </p>
+
+    <h2>Exemplos:</h2>
+    <ul>
+      <li>
+        <a class="link1" id="" href="https://google.com" target="_blank"
+          > Google </a
+        >
+      </li>
+      <li>
+        <a class="link1" href="http://hotmail.com" target="_blank"> Hotmail </a>
+      </li>
+      <li>
+        <a class="link1" href="https://github.com/philippewanuty" target="_blank"> GitHub </a>
+      </li>
+    </ul>
+
+    <h3>PseudoClasses usados</h3>
+    <ul>
+      <li><p>hover: efeito ativado ao passar o mouse em cima</p></li>
+      <li><p>visited: efeito ativado após clicar no link</p></li>
+      <li><p>active: efeito ativado quando o link se mantém pressionado </p></li>
+    </ul>
+
+    <h3>PseudoElementos usados</h3>
+    <ul>
+      <li>after: adiciona algo ao final do conteúdo </li>
+      <li>before: adiciona algo no começo do conteúdo </li>
+      <li></li>
+    </ul>
+
+    <h3>Sinais usados no estudo</h3>
+    <ul>
+      <li> <p>#  = id</p></li>
+      <li> <p>.  = class</p></li>
+      <li> <p>: = pseudo-class</p></li>
+      <li><p>:: = pesudo-element</p></li>
+      <li> <p>&gt; = children</p> </li>
+    </ul>
+  </body>
+</html>

@@ -17,8 +17,8 @@
         height: 200px;
       }
       #bloco2 {
-        width: 50px;
-        height: 100px;
+        width: 200px;
+        height: 50px;
         background-color: lightblue;
       }
       /* A pseudoclasse hover serve para mudar quando passa o mouse em cima*/
@@ -31,16 +31,22 @@
         display: none; /* comando para desaparecer o texto*/
       }
       #bloco2:hover {
-        color: yellow;
       }
       #bloco2:hover > #txte {
         /* comando para aparecer o texto*/
         display: block;
+        color: navy;
       }
     </style>
   </head>
   <body>
     <h1>Pseudoclasse</h1>
+    <p>
+      Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um
+      seletor após um sinal de dois pontos e especificam um estado especial de
+      um elemento. Existem várias pseudo-classes para estilos. <br />
+      Podemos citar :hover, :visited, :active, :checked, :empty e :focus
+    </p>
 
     <div class="bloco1">
       <p>Quadrado 1</p>
@@ -54,7 +60,18 @@
 
     <div id="bloco2">
       <p>passe o mouse aqui</p>
-      <p id="txte">Texto escondido</p>
+      <p id="txte">- Texto escondido -</p>
     </div>
+    <p>
+      Nesta aula aprendemos sobre como acessar as subclasses dentro de uma tag
+      usando o simbolo ' &gt; ' (verifique o código para saber mais detalhes)
+    </p>
+    <h3>Pseudoclasses utilizadas</h3>
+
+    <ul>
+      <li>
+        Hover: alguma tarefa é ativada quando se passa o mouse em cima do objeto
+      </li>
+    </ul>
   </body>
 </html>
