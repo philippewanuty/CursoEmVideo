@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex 15b</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .bloco1 {
+        display: inline-block;
+        border: 1px solid navy;
+        background-color: cornflowerblue;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+      }
+      #bloco2 {
+        width: 50px;
+        height: 100px;
+        background-color: lightblue;
+      }
+      /* A pseudoclasse hover serve para mudar quando passa o mouse em cima*/
+      .bloco1:hover {
+        background-color: brown;
+      }
+
+      #bloco2 > #txte {
+        /*Comando para acessar a subclasse dentro do div*/
+        display: none; /* comando para desaparecer o texto*/
+      }
+      #bloco2:hover {
+        color: yellow;
+      }
+      #bloco2:hover > #txte {
+        /* comando para aparecer o texto*/
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudoclasse</h1>
+
+    <div class="bloco1">
+      <p>Quadrado 1</p>
+    </div>
+
+    <div class="bloco1">
+      <p>Quadrado 2</p>
+    </div>
+
+    <h1>Exemplo de Hover</h1>
+
+    <div id="bloco2">
+      <p>passe o mouse aqui</p>
+      <p id="txte">Texto escondido</p>
+    </div>
+  </body>
+</html>
