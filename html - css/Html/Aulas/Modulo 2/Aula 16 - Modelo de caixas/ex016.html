@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ex016</title>
-  
-  <style>
-    p {
-      background-color: lightgray;
-      border-style:groove;
-      padding: 10px;
-      margin: 5px ;
-    
-      width: 120px;
-    }
-    h1 {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex016</title>
 
-    }
-  </style>
-</head>
-<body>
-  <h1>Modelo de caixas</h1>
-  <p>Eu sou uma caixa</p>
-</body>
+    <style>
+      #caixa {
+        background-color: lightgray;
+
+        /*box sizing*/
+        width: 120px;
+        height: 18px;
+
+        /*
+        border-width: 1px;
+        border-style: solid;
+        border-color: blue;
+        */
+
+        border: 1px solid blue; /* Shorthand: WSC*/
+
+        padding: 10px 5px 7px 9px; /* Shorthand: sentido horário */
+
+        /*margin: 5px;*/
+        margin: auto;
+
+        /*outline-width: 2px;
+        outline-style: dashed;
+        outline-color: rgb(255, 98, 0);*/
+
+        outline: 2px dashed salmon; /*-simplificada*/
+
+        
+      }
+      p { 
+        text-align: justify;
+      }
+      h1 {
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Modelo de caixas</h1>
+    <p>Nesta aula eu aprendi que tudo em html está dentro de uma caixa, aprendi sobre os termos de uma caixa como padding, margin, border,altura e largura. Aprendi também que no chrome existe o devtools, uma ferramenta que te auxilia  na visualização e no teste dos códigos, esta ferramenta é uma mão na roda para realizar testes sem alterar o código. </p>
+    <p id="caixa">Eu sou uma caixa</p>
+
+    <h2>Termos utilizados</h2>
+    <ul>
+    <li> margin : auto - Serve para centralizar a caixa</li>
+  </ul>
+  </body>
 </html>
