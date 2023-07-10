@@ -1,15 +1,40 @@
- Principais tags
+principais tags
 
-Comentário: <!-- Exemplo --> 
+<html>: Define o início e o fim do documento HTML.
 
+<head>: Contém informações sobre o documento, como título, metadados e links para arquivos externos.
 
-Título: <h1>Título</h1>
+<title>: Define o título do documento exibido na barra de título do navegador.
 
-Paragrafo: <p>Escrever um paragrafo</p>
+<body>: Contém todo o conteúdo visível do documento, como texto, imagens, links, etc.
 
-Quebra de linha: <br/>
+<header>: Define o cabeçalho do site, geralmente contendo elementos como logotipo, menu e título.
 
-Links: <a href="https://rocketseat.com.
-br">ver site</a>
+<nav>: Define uma seção de navegação, como um menu de navegação.
 
-imagem: <img src="https://source.unsplash.com/random"/>
+<main>: Define o conteúdo principal do site, excluindo cabeçalho, rodapé e outras seções.
+
+<section>: Define uma seção lógica do documento, como um capítulo, uma área de conteúdo 
+específica, etc.
+
+<article>: Define um conteúdo independente e autossuficiente, como um post de blog, um artigo de notícias, etc.
+
+<aside>: Define um conteúdo relacionado ou complementar ao conteúdo principal, como uma barra lateral.
+
+<footer>: Define o rodapé do site, geralmente contendo informações de direitos autorais, links de contato, etc.
+
+<h1> a <h6>: Definem cabeçalhos ou títulos de seção de diferentes níveis de importância.
+
+<p>: Define um parágrafo de texto.
+
+<ul> e <ol>: Definem listas não ordenadas e ordenadas, respectivamente.
+
+<li>: Define um item de lista dentro de <ul> ou 
+<ol>.
+
+<a>: Define um link para outra página ou recurso.
+
+<img>: Insere uma imagem no documento.
+
+<div>: Define uma divisão ou seção genérica, usada para agrupar outros elementos.
+Essas são apenas algumas das tags mais comumente usadas. Existem muitas outras tags HTML disponíveis para diferentes propósitos.
