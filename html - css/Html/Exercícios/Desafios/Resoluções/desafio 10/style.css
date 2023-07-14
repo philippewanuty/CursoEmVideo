@@ -20,6 +20,7 @@ body {
 
 h1 {
   font-size: 50px;
+  
 }
 
 header {
@@ -59,12 +60,18 @@ nav > a {
   padding: 10px;
 }
 
+nav > a:hover {
+  background-color: #106d3a;
+  color:#32a865;
+  
+}
+
 nav {
-  padding: 13px 10px 10px 10px;
+  padding: 6px 10px 10px 10px;
 }
 
 main {
-  width: 800px;
+  width: 1020px;
   background-color: white;
   margin: auto;
   padding: 20px 15px 10px 15px;
@@ -75,16 +82,30 @@ main {
 #t1 {
   font-size: 30px;
   background-image: none;
+  color: black;
 }
 main > h2 {
   margin: 0px;
 }
 
 h2 {
-  background-image: linear-gradient(to right, #bff1d5, white);
+  background-image: linear-gradient(to right, #92e6b7, white);
   font-family: "android", Arial, Helvetica, sans-serif;
   color: #587966;
   font-size: 24px;
+}
+
+span {
+  background-color: #7bdda4;
+  padding: 2px 5px;
+  
+
+}
+
+span >a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #32453a;
 }
 
 p {
@@ -99,10 +120,11 @@ aside {
   background-color: #c5ebd6;
   border-radius: 20px;
   padding-bottom: 30px;
+  margin-top: 30px;
 }
 
 #txtas {
-  background-color: #7fa866;
+  background-color: #13542e;
   border-radius: 10px 10px 0px 0px;
 }
 h4 {
@@ -111,6 +133,13 @@ h4 {
   font-weight: 800;
   color: white;
 }
+
+#videoback {
+  background-color: #033d1b;
+  padding: 25px 40px ;
+  margin: 0px -15px;
+}
+
 
 aside > p {
   padding: 0px 20px 0px 20px;
