@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "android";
+  src: url(fontes/idroid.otf) format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  font-family: arial;
+  text-align: justify;
+}
+
+body {
+  margin: 0px;
+  background-color: #84e1ad;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+header {
+  height: 215px;
+  background-image: linear-gradient(to top, #104226, #3cd681);
+}
+
+header > div {
+  width: 560px;
+  color: white;
+  margin: auto;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px black;
+}
+header > div > p {
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 28px 1px 1px 1px;
+  text-shadow: 1px 1px 1px black;
+}
+
+nav > a {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  padding: 13px 10px 10px 10px;
+}
+
+main {
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  padding: 20px 15px 10px 15px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 1px 15px rgb(154, 137, 137);
+}
+
+#t1 {
+  font-size: 30px;
+  background-image: none;
+}
+main > h2 {
+  margin: 0px;
+}
+
+h2 {
+  background-image: linear-gradient(to right, #bff1d5, white);
+  font-family: "android", Arial, Helvetica, sans-serif;
+  color: #587966;
+  font-size: 24px;
+}
+
+p {
+  text-indent: 42px;
+}
+picture {
+  display: block;
+  text-align: center;
+}
+
+aside {
+  background-color: #c5ebd6;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+#txtas {
+  background-color: #7fa866;
+  border-radius: 10px 10px 0px 0px;
+}
+h4 {
+  margin: 0px;
+  padding: 12px 0px 12px 20px;
+  font-weight: 800;
+  color: white;
+}
+
+aside > p {
+  padding: 0px 20px 0px 20px;
+}
+
+#txtf {
+  padding: 0px 5px;
+  line-height: 30px;
+
+  text-align: justify;
+  font-size: 17px;
+}
+
+footer {
+  background-color: #1a5c38;
+  padding: 7px 0px 7px;
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+h6 {
+  margin: 0px;
+  text-align: center;
+}
+
+#listas {
+  display: flex;
+}
+.sub {
+  flex: 1;
+}
+
+ul {
+  list-style-type: ;
+}

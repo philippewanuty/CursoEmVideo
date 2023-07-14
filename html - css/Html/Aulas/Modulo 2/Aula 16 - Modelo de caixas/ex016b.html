@@ -18,6 +18,7 @@
         background-color: rgb(132, 158, 241);
         margin: 2px -2px 10px -2px;
         text-align: center;
+        box-shadow: 1px 1px 1px black;
       }
       nav > a {
         margin-right: 10px;
@@ -36,12 +37,37 @@
 
         text-align: center;
       }
-
+      article > h2 {
+        margin: 0px;
+      }
+      #dentro {
+        background-color: white;
+        width: 120px;
+        height: 39px;
+        margin: 20px 1px 1px 20px;
+        text-align: center;
+        
+        box-shadow: 4px 4px 4px black;
+        border-radius: 5px;
+        padding: 4px 4px 4px 4px;
+      }
+      div > #dentro > p {
+        margin: 0px;
+      }
+      div {
+        background-color: rgb(163, 163, 163);
+        margin: 4px;
+        height: 100px;
+        padding: 1px 1px 1px 1px;
+      }
       footer {
         background-color: rgb(2, 2, 90);
         color: white;
         text-align: center;
-        padding: 0px;
+        padding: 4px;
+      }
+      footer > p {
+        margin: 0px;
       }
     </style>
   </head>
@@ -61,13 +87,16 @@
       <article>
         <h2>Modelagem de um site</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-          asperiores distinctio? Sapiente blanditiis culpa vero amet hic itaque
-          totam, ratione delectus, illum facilis ab minus natus! Aliquid minima
-          minus deserunt.
+          Nesta aula aprendi sobre as tags mais usadas para compor um site como header, nav, main, footer entre outros.
+          aprendi também sobre sombreamento e arredondamento de bordas
         </p>
       </article>
     </main>
+    <div>
+      <div id="dentro">
+        <p>Sou um box com sombra e bordas</p>
+      </div>
+    </div>
     <footer>
       <p>Feito por Philippe Costa</p>
     </footer>
