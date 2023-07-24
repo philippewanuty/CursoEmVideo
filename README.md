@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" src="https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true">
+  <img width="200" src="https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true"><br>
   
 <h1> CURSO EM VÍDEO</h1>
   
