@@ -1,7 +1,7 @@
 <div align="center">
   <img width="200" src="https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true">
   
-  ### CURSO EM VÍDEO
+<h1> CURSO EM VÍDEO</h1>
   
   <p>Repositório do meu aprendizado nas Linguagens de marcação e programação. <br> Cursos ministrado pelo professor <a href="https://github.com/gustavoguanabara/html-css">Gustavo Guanabara</a>.</p>
   
