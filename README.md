@@ -11,3 +11,12 @@
             
           
 </div>
+
+<h2>Cursos</h2>
+
+  <ul>
+    <li><a href="https://github.com/philippewanuty/CursoEmVideo/tree/main/Html-CSS" target="_blank" >Html - CSS </a></li>
+    <li><a href="https://github.com/philippewanuty/CursoEmVideo/tree/main/Git%20%26%20GitHub" target="_blank" >Git- Github</a></li>
+    <li><a href="https://github.com/philippewanuty/CursoEmVideo/tree/main/Python" target="_blank" >Python</a></li>
+    <li><a href="#" target="_blank" >JavaScript</a></li>
+  </ul>
