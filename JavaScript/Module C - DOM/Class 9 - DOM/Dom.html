@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 9 - DOM</title>
+  </head>
+  <body>
+    <h1 class="textG">Starting Studies DOM</h1>
+    <p>Learning use DOM</p>
+    <p id="result">Here is the Result</p>
+  </body>
+
+  <script>
+    var p1 = document.getElementsByTagName('p')[0];
+    p1.style.color = 'blue';
+    var r = document.getElementById('result');
+    r.style.color = 'green';
+    var text = document.querySelector('.textG');
+    text.style.color = 'pink';
+  </script>
+</html>
