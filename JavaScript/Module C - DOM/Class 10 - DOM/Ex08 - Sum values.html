@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <!-- CSS -->
+  <style>
+*{ font: normal 18pt arial;}
+
+    input#ElementNumber1,
+    #ElementNumber2 {
+      width: 90px;
+    }
+
+    #result {
+      margin-top: 20px;
+    }
+  </style>
+  <!--  End CSS -->
+
+
+   <!-- HTML -->
+  <body>
+    <h1>Sum values</h1>
+    <input type="number" name="txtn1" id="ElementNumber1" /> +
+    <input type="number" name="txtn2" id="ElementNumber2" />
+    <input type="button" value="Calculate" onclick="sum()" />
+    <div id="result">Result:</div>
+  </body>
+
+  <!-- End HTML -->
+
+
+  <!-- Javascript -->
+  <script>
+    function sum() {
+      var ElementNumber1 = document.getElementById('ElementNumber1'); //getting element in html
+      var ElementNumber2 = document.querySelector('input#ElementNumber2'); // getting element in html throught query
+      var Result = document.getElementById('result');
+
+      var inputNumber1 = Number(ElementNumber1.value);
+      var inputNumber2 = Number(ElementNumber2.value);
+      var Sum = inputNumber1 + inputNumber2;
+      Result.innerHTML = `The sum between ${inputNumber1} and ${inputNumber2} is:   <strong>${Sum}</strong>`; //show de Sum of numbers
+    }
+  </script>
+
+   <!--  End Javascript -->
+
+</html>

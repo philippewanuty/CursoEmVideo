@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 9 - DOM</title>
+
+    <style>
+      #area {
+        font: normal 20pt arial;
+        background-color: lightblue;
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="area">Mouse Events</div>
+    <p>Testing cursor events, Click on square</p>
+  </body>
+
+  <script>
+    var a = window.document.getElementById('area');
+    a.addEventListener('click', clicked);
+    a.addEventListener('mouseenter', enter);
+    a.addEventListener('mouseout' , exit);
+
+    //cursor click
+    function clicked() {
+      a.style.backgroundColor = 'red';
+      a.innerText = 'Clicked!';
+    }
+    //cursou enter
+    function enter() {
+      a.innerText = 'Entered';
+      a.style.backgroundColor = 'lightblue';
+    }
+    //cursor exit
+    function exit() {
+      a.innerText = 'Left';
+      a.style.backgroundColor = 'lightblue';
+    }
+  </script>
+</html>
