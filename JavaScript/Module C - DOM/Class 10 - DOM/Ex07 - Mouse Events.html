@@ -19,28 +19,28 @@
   <body>
     <div id="area">Mouse Events</div>
     <p>Testing cursor events, Click on square</p>
+
+    <script>
+      var a = window.document.getElementById('area');
+      a.addEventListener('click', clicked);
+      a.addEventListener('mouseenter', enter);
+      a.addEventListener('mouseout', exit);
+
+      //cursor click
+      function clicked() {
+        a.style.backgroundColor = 'red';
+        a.innerText = 'Clicked!';
+      }
+      //cursou enter
+      function enter() {
+        a.innerText = 'Entered';
+        a.style.backgroundColor = 'lightblue';
+      }
+      //cursor exit
+      function exit() {
+        a.innerText = 'Left';
+        a.style.backgroundColor = 'lightblue';
+      }
+    </script>
   </body>
-
-  <script>
-    var a = window.document.getElementById('area');
-    a.addEventListener('click', clicked);
-    a.addEventListener('mouseenter', enter);
-    a.addEventListener('mouseout' , exit);
-
-    //cursor click
-    function clicked() {
-      a.style.backgroundColor = 'red';
-      a.innerText = 'Clicked!';
-    }
-    //cursou enter
-    function enter() {
-      a.innerText = 'Entered';
-      a.style.backgroundColor = 'lightblue';
-    }
-    //cursor exit
-    function exit() {
-      a.innerText = 'Left';
-      a.style.backgroundColor = 'lightblue';
-    }
-  </script>
 </html>
