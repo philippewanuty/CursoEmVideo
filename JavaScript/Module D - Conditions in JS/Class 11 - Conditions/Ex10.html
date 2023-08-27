@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training conditions</title>
+  </head>
+
+  <!-- CSS -->
+  <style>
+    h1 {
+      font: normal arial;
+    }
+
+    input#Velocity {
+      width: 70px;
+    }
+
+    #result {
+      margin-top: 20px;
+    }
+  </style>
+  <!--  End CSS -->
+
+  <!-- HTML -->
+  <body>
+    <h1>Training Conditions 2 - if else</h1>
+    <h2>Velocity verification</h2>
+    <p>Enter your veloticy</p>
+    <input type="number" name="txtn1" id="velocity" /> km/h
+    <input type="button" value="Verify" onclick="VelocityVerification()" />
+    <div id="result">Result:</div>
+ 
+
+  <!-- End HTML -->
+
+  <!-- Javascript -->
+  <script>
+    function VelocityVerification() {
+      var Velocity = document.getElementById('velocity'); //getting element in html
+      var inputVelocity = Number(Velocity.value);
+      var Result = document.getElementById('result'); //getting element in html
+
+      Result.innerHTML = `Result: Your current Velocity is ${inputVelocity} km/h`
+
+      if (inputVelocity > 60) {
+        Result.innerHTML += `<p>Your velocity is ${inputVelocity}km/h you are above the speed limit! beware!!</p>`;
+      } 
+      else {
+        Result.innerHTML += `<p> Drive Safety! </p>`
+      }
+    }
+  </script>
+
+   </body>
+
+  <!--  End Javascript -->
+</html>
