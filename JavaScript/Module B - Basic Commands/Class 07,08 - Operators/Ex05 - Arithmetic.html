@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ex 03</title>
     <style>
-        body {
-            font-weight: 400;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20pt;
-        }
+      body {
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20pt;
+      }
     </style>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <script>
+      var Myname = window.prompt(`Digite o seu nome`);
+      var Money = window.prompt(`Type your money: `);
+      document.write(`Hello Mr. ${Myname}! you are a programmer <br>`);
+      document.write(`This is your name in Uppercase ${Myname.toLocaleUpperCase()}<br>`);
+      document.write(`This is your name in Lowercase ${Myname.toLocaleLowerCase()}<br>`);
 
-<script>
-    var Myname = window.prompt(`Digite o seu nome`)
-    var Money = window.prompt(`Type your money: `)
-    document.write(`Hello Mr. ${Myname}! you are a programmer <br>`)
-    document.write(`This is your name in Uppercase ${Myname.toLocaleUpperCase()}<br>`)
-    document.write(`This is your name in Lowercase ${Myname.toLocaleLowerCase()}<br>`)
-
-    document.write(`you have ${Money.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`) // only prompt
-</script>
+      document.write(`you have ${Money.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`); // only prompt
+    </script>
+  </body>
 </html>
