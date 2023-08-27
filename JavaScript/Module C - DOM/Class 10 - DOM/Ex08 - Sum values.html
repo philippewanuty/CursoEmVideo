@@ -8,7 +8,9 @@
 
   <!-- CSS -->
   <style>
-*{ font: normal 18pt arial;}
+    * {
+      font: normal 18pt arial;
+    }
 
     input#ElementNumber1,
     #ElementNumber2 {
@@ -21,33 +23,30 @@
   </style>
   <!--  End CSS -->
 
-
-   <!-- HTML -->
+  <!-- HTML -->
   <body>
     <h1>Sum values</h1>
     <input type="number" name="txtn1" id="ElementNumber1" /> +
     <input type="number" name="txtn2" id="ElementNumber2" />
     <input type="button" value="Calculate" onclick="sum()" />
     <div id="result">Result:</div>
+
+    <!-- End HTML -->
+
+    <!-- Javascript -->
+    <script>
+      function sum() {
+        var ElementNumber1 = document.getElementById('ElementNumber1'); //getting element in html
+        var ElementNumber2 = document.querySelector('input#ElementNumber2'); // getting element in html throught query
+        var Result = document.getElementById('result');
+
+        var inputNumber1 = Number(ElementNumber1.value);
+        var inputNumber2 = Number(ElementNumber2.value);
+        var Sum = inputNumber1 + inputNumber2;
+        Result.innerHTML = `The sum between ${inputNumber1} and ${inputNumber2} is:   <strong>${Sum}</strong>`; //show de Sum of numbers
+      }
+    </script>
   </body>
 
-  <!-- End HTML -->
-
-
-  <!-- Javascript -->
-  <script>
-    function sum() {
-      var ElementNumber1 = document.getElementById('ElementNumber1'); //getting element in html
-      var ElementNumber2 = document.querySelector('input#ElementNumber2'); // getting element in html throught query
-      var Result = document.getElementById('result');
-
-      var inputNumber1 = Number(ElementNumber1.value);
-      var inputNumber2 = Number(ElementNumber2.value);
-      var Sum = inputNumber1 + inputNumber2;
-      Result.innerHTML = `The sum between ${inputNumber1} and ${inputNumber2} is:   <strong>${Sum}</strong>`; //show de Sum of numbers
-    }
-  </script>
-
-   <!--  End Javascript -->
-
+  <!--  End Javascript -->
 </html>
