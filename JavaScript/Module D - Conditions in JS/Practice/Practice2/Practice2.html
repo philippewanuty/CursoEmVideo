@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600;800&display=swap" rel="stylesheet" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Practice 2</title>
+  </head>
+  <body>
+    <header>
+      <h1>Age verification</h1>
+    </header>
+
+    <section>
+      <div id="dInput">
+        <p>Year of Birth: <input type="number" name="Age" id="placeAge" placeholder="Ex: 1999" /></p>
+        <p>
+          Gender:
+
+          <input type="radio" name="gender" id="genderMan" checked />
+          <label for="Male"> Boy</label>
+
+          <input type="radio" name="gender" id="genderWoman" />
+          <label for="Female">Girl</label>
+        </p>
+
+        <input type="button" value="Verify" id="Verify" onclick="getInformation()" />
+      </div>
+
+      <div id="dImage">
+        <p id="showAge">Loading your information...</p>
+        <figure>
+          <img src="./img/MaleChild.jpeg" alt="morning" id="Image" />
+        </figure>
+      </div>
+    </section>
+
+    <script src="Practice2.js"></script>
+  </body>
+
+  <footer>
+    <p>&copy Philippe Wanuty</p>
+  </footer>
+</html>
