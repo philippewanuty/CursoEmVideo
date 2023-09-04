@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600;800&display=swap" rel="stylesheet" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Practice 4</title>
+  </head>
+  <body>
+    <header>
+      <h1>Number Analiser</h1>
+    </header>
+
+    <section>
+      <div class="div">
+        <label for="Number">Enter a number between 1 and 100: <input type="number" name="iNumber" id="hNumber" /> </label>
+        <input type="button" value="Add" onclick="Table()" class="generate" />
+      </div>
+
+      <div class="div">
+        <select name="sTable" id="sTable" size="10">
+          <option></option>
+        </select>
+      </div>
+      <div class="div">
+        <input type="button" value="Finalize" class="generate" onclick="Finalize()">
+        <p id="hText">Resultado: </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    <p>&copy Philippe Wanuty</p>
+  </footer>
+</html>
