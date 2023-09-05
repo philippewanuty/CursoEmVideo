@@ -1,29 +1,52 @@
 var Result = document.getElementById('hText');
+var InputNumber = document.getElementById('iNumber');
+var Stable = document.getElementById('sTable');
 
-function Table() {
-  var HtmlInput = document.getElementById('hNumber');
+var numberList = [];
 
-  var Stable = document.getElementById('sTable');
-  var numberInput = Number(HtmlInput.value);
+// function to validate the number between  1 and 100
 
-  var numberList = [];
-  //numberInput = 7;
-
-  if (HtmlInput.value == '') {
-    window.alert('Please enter any number');
-  }
-  if (numberInput < 1 || numberInput > 100) {
-    window.alert('Please, enter a number between 1 and 100');
+function nMax(n) {
+  if (Number(n) >= 1 && Number(n) <= 100) {
+    return true;
   } else {
-    Stable.innerHTML = '';
-    //from here down
-    numberList.push(numberInput);
-    var item = document.createElement('option');
-    item.text = `Value ${numberInput} has added`; //here should have the content;
-    Stable.appendChild(item);
+    return false;
   }
 }
-function Finalize() {
-  Result.innerHTML=`oi`;
+
+function inList(n, l) {
+  if (l.indexOf(Number(n)) != -1) {
+    return true;
+  } else {
+    return false;
+  }
 }
-//}
+
+function inTable() {
+  if (nMax(InputNumber.value) && !inList(InputNumber.value, numberList)) {
+    numberList.push(Number(InputNumber.value));
+    var item = document.createElement('option');
+    item.text = `Value ${InputNumber.value} has added`;
+    Stable.appendChild(item);
+    Result.innerHTML = '';
+  } else {
+    window.alert(`Wrong number or number already in list`);
+  }
+  InputNumber.value = '';
+  InputNumber.focus();
+}
+
+function Finalize() {
+  if (numberList.length == 0) {
+    window.alert(`Please enter values before finalize`);
+  } else {
+    const ArraySum = numberList.reduce((a, e) => a + e, 0);
+
+    Result.innerHTML = `<br> ${numberList.length} Numbers registred <br>`;
+    Result.innerHTML += `The number ${Math.max(...numberList)} is the biggest <br>`;
+    Result.innerHTML += `The number ${Math.min(...numberList)} is the smallest <br>`;
+    Result.innerHTML += `The Sum of all numbers is ${ArraySum}<br>`;
+    Result.innerHTML += `the average of the values ​​is ${ArraySum / numberList.length}
+  `;
+  }
+}
