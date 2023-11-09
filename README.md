@@ -2,8 +2,8 @@
   <img width="200px" src="https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true"><br>
   
 <h1>CURSO EM VÍDEO</h1>
-  
-  <p>Repository of my learning in markup and programming languages. <br> Teacher-led courses <a href="https://github.com/gustavoguanabara/html-css">Gustavo Guanabara</a>.</p>
+
+  <p>Repositório do meu aprendizado em linguagens de marcação e programação. <br> Cursos ministrados pelo professor <a href="https://github.com/gustavoguanabara/html-css">Gustavo Guanabara</a>.</p>
   
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
             <img width="3%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> <img width="3%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
@@ -21,3 +21,8 @@
     <li><a href="https://github.com/philippewanuty/CursoEmVideo/tree/main/Python" target="_blank" >Python</a></li>
     
   </ul>
+
+  <br>
+  <br>
+
+  <p><b>Nota:</b>  Aqui foi onde tudo começou!, meu primeiro contato com programação onde aprendi com maestria HTML, CSS e Javascript, antes de ir para o curso da Rocketseat</p>
